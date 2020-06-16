@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/scss/style.scss">
+
+    <!--Titulo do site-->
+    <title>Teste</title>
+    
+  </head>
+  <body>
+      <!--Esse é a barra de navegação do site-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-gradient-primary">
+        <div class="container">
+            <!--Esse é o icone do site você pode colocar um texto se quiser retirando o <img> e colocando um texto-->
+            <a class="navbar-brand h1 mb-0" href="#"><img src="imgs/iconeteste.png" width="30%" height="30%" ></a>
+            <!--Esse é o fim do icone do site-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item">
+                    <a class="nav-link text-dark mr-3" href="#text">inicio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-dark mr-3" href="#img">imagens</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-dark mr-3" href="#roda">Mais</a>
+                    </li>    
+                </ul>
+                <!--Se quiser tirar o social/Ok é so deletar isso...-->
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item text-dark" href="#">Facebook</a>
+                            <a class="dropdown-item text-dark" href="#">Twitter</a>
+                            <a class="dropdown-item text-dark" href="#">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control ml-5 mr-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark" type="Submit">Ok</button>
+                </form>
+                <!--... até aqui!.-->
+            </div>
+        </div>
+    </nav>
+    <!--Esse é o  carousel  do site-->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="carouselSite" data-slide-to="1"></li>
+            <li data-target="carouselSite" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/reciclagem.jpg" class="img-fluid d-block">
+                <!--recomendo imagens de no minimo 1680X500-->
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h3>Responsabilidade</h3>
+                    <!--apartir de agora tera alguns textos que não faz o menor sentido e é só você mudar-->
+                    <p>Cuide do planeta como a sua casa.</p>
+                </div>
+            </div>
+            <div class="carousel-item" >
+            <img src="imgs/coleta.jpg" class="img-fluid d-block">
+            <!--recomendo imagens de no minimo 1680X500-->
+            <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>O que é a reciclagem?</h3>
+                <p>Com a colaboração de todos neste setor podemos amenizar os problemas de residuos.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="imgs/lata.jpg" class="img-fluid d-block">
+            <!--recomendo imagens de no minimo 1680X500-->
+            <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>solidariedade</h3>
+                <p>Devemos ajudar uns aos outros por um mundo melhor</p>
+            </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+    <!--Esse é o fim do carousel do site-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3" id="text">Sobre o Web-site</h1>
+                <p> Nosso objetivo é tornar a comunicação entre usuarios, catadores e empresas mais facil.</p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-3 ">
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#item1">O grupo</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Ferramentas para construção do web-site</a>
+                            <a class="nav-link ml-3" href="#item1-2">Explicação</a>
+                        </nav>
+                        <a class="nav-link my-2" href="#item2">Como funciona o web-site</a>
+                        <a class="nav-link my-2" href="#item3">Pellentesque dictum</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">teztesz</a>
+                            <a class="nav-link ml-3" href="#item3-2">tezstesssts</a>
+                        </nav>
+                    </nav>
+                </nav>
+
+            </div>
+            <div class="col-9">
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="srcollspySite">
+                    <h4 id="item1">Vestibulum ante</h4>
+                    <p>Nunc rutrum massa et nisl convallis, sed tempus enim pellentesque. Duis dignissim urna at enim suscipit lacinia. Nam id accumsan ipsum, eleifend rutrum nibh.</p>
+
+                    <h5 id="item1-1">iaculis porta justo</h5>
+                    <p>Aenean non consequat dui, eu congue metus. Pellentesque dictum metus eu lorem faucibus mollis. Donec scelerisque ex vitae erat sodales blandit. Cras nisi felis, suscipit vel velit vel, iaculis porta justo. Aliquam commodo mollis ipsum vitae pulvinar. Nam rhoncus congue fermentum. In fringilla felis urna, vel euismod elit bibendum ut. Vestibulum te. Aenean non consequat dui, eu congue metus. Pellentesque dictum metus eu lorem faucibus mollis. Donec scelerisque ex vitae erat sodales blandit. Cras nisi felis, suscipit vel velit vel, iaculis porta justo. Aliquam commodo mollis ipsum vitae pulvinar. Nam rhoncus congue fermentum. In fringilla felis urna, vel euismod elit bibendum ut. Vestibulum te</p>
+
+                    <h5 id="item1-2">Pellentesque</h5>
+                    <img class="card-img-top" src="imgs/orlando1.jpg" height="50%" width="40%>
+                    <p>Nunc rutrum massa et nisl convallis, sed tempus enim pellentesque. Duis dignissim urna at enim suscipit lacinia. Nam id accumsan ipsum, eleifend rutrum nibh. Mauris aliquam, tellus eget aliquet elementum, lacus risus rutrum libero, non molestie ligula odio nec tellus. Suspendisse tempus, nisi eu porttitor accumsan, arcu libero pellentesque nunc, id efficitur sapien mi laoreet tortor. Maecenas porta nibh a viverra sollicitudin. Nullam posuere </p>
+                
+                    <h4 id="item2">Curabitur in ex luctus</h4>
+                    <p>Aenean non consequat dui, eu congue metus. Pellentesque dictum metus eu lorem faucibus mollis. Donec scelerisque ex vitae erat sodales blandit. Cras nisi felis, suscipit vel velit vel, iaculis porta justo. Aliquam commodo mollis ipsum vitae pulvinar. Nam rhoncus congue fermentum. In fringilla felis urna, vel euismod elit bibendum ut. Vestibulum tempus posuere hendrerit. Donec venenatis blandit mi at pharetra. Nullam scelerisque purus ligula, vel molestie ex dictum eget. Nullam rutrum sem ac libero sagittis aliquam. Integer sed urna tincidunt lorem mollis fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas blandit lobortis urna, quis placerat urna.</p>
+                    <h4 id="item3">Pellentesque dictum</h4>
+                    <p>Aenean id laoreet metus, eu posuere nulla. Praesent mollis elit ligula, ut maximus odio ultricies et. Aliquam viverra at neque in vehicula. Donec faucibus ornare ipsum in rutrum. Fusce ac nunc interdum, ornare nisl ut, sodales metus. Ut dolor nibh, bibendum nec tempus eget, vestibulum nec ex. Maecenas sagittis, neque vel bibendum bibendum, nibh mi dictum ante, sed suscipit mauris risus non mauris. Maecenas diam massa, imperdiet quis hendrerit a, hendrerit eu ante. Sed rutrum est fermentum molestie hendrerit. Integer vitae malesuada nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <img src="imgs/teste1.png" width="100%" width="50%">
+                    <h5 id="item3-1">teztesz</h5>
+                    <p>Sed massa ligula, ornare et turpis ac, utpat odio. Quisque ligula erat, cursus vel ultricies non, viverra et dui. In ullamcorper purus sed facilisis sagittis. Nullam vel turpis a nibh dapibus scelerisque vehicula id enim. Phasellus suscipit ultricies tempus. Sed commodo est eu volutpat cursus. Vivamus fringilla magna sapien, ut feugiat est imper congue accumsan orci. Morbi fermentum aliquet purus, vitae scelerisque justo congue eu. Duis interdum turpis et neque pretium aliquet. Nullam pharetra vestibulum justo, in sagittis augue. Ut elementum sapien eu molestie dignissim. Nulla facilisi. Sed dapibus arcu luctus quam convallis mattis. Mauris eu lacinia ex. Ut dapibus neque elit, vel blandit elit faucibus euismod.</p>
+                    <img src="imgs/iconeteste.png" width="70%" width="100%">
+                    <h5 id="item3-2">tezstesssts</h5>
+                    <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Phasellus convallis lobortis elit, in aliquam tortor fermentum id. In ut dolor ut sapien posuere pretium vel at nisl. Sed ligula magna, sodales sit amet finibus vitae, vulputate ac est. Praesent sodales lorem at lectus consequat, id tristique eros convallis. Curabitur velit ante, suscipit ac finibus quis, accumsan ut mi. Mauris blandit mattis lobortis. Sed ut vehicula ante, nec feugiat purus. Phasellus fringilla viverra eleifend. Suspendisse rutrum mollis massa, vel accumsan quam mollis vel. Pellentesque porttitor dapibus ipsum a faucibus.</p>
+                    <img src="imgs/teste2.png " width="50%" width="40%">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5" id="img">
+            <div class="col-sm-4">
+                <div class="card">
+                <img class="card-img-top" src="imgs/orlando1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">teste01</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">subtest01</h6>
+                        <p class="card-text">Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$1333,33</li>
+                            <li class="list-group-item">4.8 estrelas</li>
+                            <li class="list-group-item">seila</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer   bg-gradient-danger text-dark text-center">
+                        Esgotado
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="imgs/orlando1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">teste02</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">subtest02</h6>
+                       <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                       <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$2833,33</li>
+                            <li class="list-group-item">4.5 estrelas</li>
+                            <li class="list-group-item">seila</li>
+                        </ul>
+
+                    </div>
+                    <div class="card-footer   bg-gradient-success text-dark text-center">
+                        Disponivel
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top" src="imgs/orlando1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">teste03</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">subtest03</h6>
+                        <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$1833,33</li>
+                            <li class="list-group-item">4 estrelas</li>
+                            <li class="list-group-item">seila</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="card-footer   bg-gradient-danger text-dark text-center">
+                        Esgotado
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5" id="img">
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="imgs/orlando1.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">teste04</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">subtest04</h6>
+                   <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                   <ul class="list-group list-group-flush">
+                        <li class="list-group-item">R$1533,33</li>
+                        <li class="list-group-item">4.6 estrelas</li>
+                        <li class="list-group-item">seila</li>
+                    </ul>
+
+                </div>
+                <div class="card-footer   bg-gradient-success text-dark text-center">
+                    Disponivel
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="imgs/orlando1.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">teste05</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">subtest05</h6>
+                   <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                   <ul class="list-group list-group-flush">
+                        <li class="list-group-item">R$1533,33</li>
+                        <li class="list-group-item">4.6 estrelas</li>
+                        <li class="list-group-item">seila</li>
+                    </ul>
+
+                </div>
+                <div class="card-footer   bg-gradient-danger text-dark text-center">
+                   Esgotado
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="imgs/orlando1.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">teste06</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">subtest06</h6>
+                   <p>Mauris dictum leo risus, eu eleifend risus egestas sed. Pha</p>
+                   <ul class="list-group list-group-flush">
+                        <li class="list-group-item">R$1533,33</li>
+                        <li class="list-group-item">4.6 estrelas</li>
+                        <li class="list-group-item">seila</li>
+                    </ul>
+
+                </div>
+                <div class="card-footer   bg-gradient-success text-dark text-center">
+                    Disponivel
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-12"><hr></div>
+    </div>
+    </div>
+        <!--rodapé-->
+        
+    <div class="w-100 bg-secondary border-top border-dark mt-5" id="roda">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-white ">
+                    <h3>Sobre nós</h3>
+                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis sapien lacus, sodales sed suscipit a, bibendum quis diam. Sed hendrerit in enim eget porttitor. Phasellus pharetra commodo enim sit amet vehicula. Cras ultrices ligula ac massa consectetur, vitae porta magna aliquet. Pellentesque odio erat, s</p>
+                </div>
+                <div class="col-sm-4 text-white text-center">
+                    <h3>Menu</h3>
+                    <div class="list-group text-center">
+                        <a href="#text" class="list-group-item list-group-item-action bg-secondary border-dark text-white">Inicio</a>
+                        <a href="#img" class="list-group-item list-group-item-action bg-secondary border-dark text-white">Imagens</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-white">
+                    <h3>Social</h3>
+                    <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                        <a class="btn btn-outline-primary" href="#">Facebook</a>
+                        <a class="btn btn-outline-info" href="#">Twitter</a>
+                        <a class="btn btn-outline-warning" href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
